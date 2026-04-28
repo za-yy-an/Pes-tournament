@@ -3,21 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-    "overrides": {
-    "next": {
-      "postcss": "^8.5.10"
-    }
-  },
   "dependencies": {
-    "@google/generative-ai": "^0.1.1",
-    "@supabase/ssr": "^0.10.2",
-    "@supabase/supabase-js": "^2.105.0",
-    "next": "^16.2.4",
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "next": "^15.3.0",
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.12.7"
